@@ -1,0 +1,12 @@
+# data come from Dryad, outputs are regenerated
+data/*
+!data/README.md
+figures/data/
+figures/png/
+figures/pdf/
+figures/audit/
+figures/fonts/
+work/
+__pycache__/
+*.pyc
+.DS_Store

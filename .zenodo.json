@@ -1,0 +1,52 @@
+{
+  "title": "Code for: Provider inequality emerges through withdrawal of capable group members in mice",
+  "upload_type": "software",
+  "license": "MIT",
+  "description": "Figure, extraction and analysis code for the article \"Provider inequality emerges through withdrawal of capable group members in mice\". Reproduces every main and supplementary figure from the figure source data deposited at Dryad.",
+  "creators": [
+    {
+      "name": "Lee, Jaehyun",
+      "affiliation": "Korea Institute of Science and Technology"
+    },
+    {
+      "name": "Lee, Gyu-Hwan",
+      "affiliation": "Korea Institute of Science and Technology"
+    },
+    {
+      "name": "Kim, Seo Young",
+      "affiliation": "Korea Institute of Science and Technology"
+    },
+    {
+      "name": "Jung, DaYoung",
+      "affiliation": "Korea Institute of Science and Technology"
+    },
+    {
+      "name": "Kim, Jaehoon",
+      "affiliation": "Korea Development Institute"
+    },
+    {
+      "name": "Lee, Young",
+      "affiliation": "Seoul National University"
+    },
+    {
+      "name": "Choi, Se-Young",
+      "affiliation": "Seoul National University"
+    },
+    {
+      "name": "Froemke, Robert C.",
+      "affiliation": "New York University Grossman School of Medicine"
+    },
+    {
+      "name": "Choi, Jee Hyun",
+      "affiliation": "Korea Institute of Science and Technology"
+    }
+  ],
+  "keywords": [
+    "collective action",
+    "public good",
+    "division of labour",
+    "mice",
+    "local field potential",
+    "prefrontal cortex"
+  ]
+}

@@ -1,0 +1,145 @@
+figure,panel,source_data_file,data_S1_sheet,content,code
+Fig1,A,—,— (illustration),Arena illustration,figures/code/build_fig12.fig1 + art/arena_closed.png
+Fig1,B,fig1b_robot_zone_food_per_trial.csv,Fig1_B_1,"Time in robot zone (%) with food, per mouse-trial, cohort A (2026 source data, sheet Fig1c, foraging zone)",figures/code/build_fig12.fig1
+Fig1,B,fig1b_robot_zone_nofood_summary.csv,Fig1_B_2,Without food: mean ± SEM and Mann–Whitney result as reported in the May 2026 draft; per-trial values not available,figures/code/build_fig12.fig1
+Fig1,C,fig1c_eating_location_per_trial.csv,Fig1_C,"Eating location per trial (inner vs outer zone, % of eating-cluster time), recomputed with extract_fig1c_eating_location.py; day 9 excluded in the figure",figures/code/build_fig12.fig1
+Fig1,D,fig1d_eat_duration_by_state.csv,Fig1_D_1,"Eating time per mouse-trial by the state on that trial (2026 source data, sheet Fig1e)",figures/code/build_fig12.fig1
+Fig1,D,fig1d_eat_duration_stats.csv,Fig1_D_2,"Linear mixed model, author statistics table (F(2,950) = 1.60, P = 0.20)",figures/code/build_fig12.fig1
+Fig1,E,fig1b_solitary_latency.csv,Fig1_E,Solitary trials of cohort A: cumulative retrieval (108 trials),figures/code/build_fig12.fig1
+Fig1,F,figS02a_solitary_vs_group_per_mouse.csv,Fig1_F,Alone vs group retrieval fraction 46 mice; 1/n band; no test (solitary = 1.0 by construction),figures/code/build_fig12.fig1
+Fig1,G,fig1c_lorenz_points.csv,Fig1_G_1,Lorenz mean and min–max; Gini,figures/code/build_fig12.fig1
+Fig1,G,fig1c_gini_by_cohort.csv,Fig1_G_2,Lorenz mean and min–max; Gini,figures/code/build_fig12.fig1
+Fig2,A,fig1b_early_entry_per_mouse.csv,Fig2_A_1,Entry latency first 10 trials 39 mice,figures/code/build_fig12.fig2
+Fig2,A,fig1b_early_entry_trials.csv,Fig2_A_2,Entry latency first 10 trials 39 mice,figures/code/build_fig12.fig2
+Fig2,B,fig1f_retrieval_raster.csv,Fig2_B,Retriever raster first 40 trials,figures/code/build_fig12.fig2
+Fig2,C,fig2c_leader10_prediction.csv,Fig2_C,Trial-10 leader vs provider defined on trials 11+ (7 cohorts),figures/code/build_fig12.fig2
+Fig2,D,fig1d_hhi_first10.csv,Fig2_D,HHI first 10 retrievals vs equal propensity,figures/code/build_fig12.fig2
+Fig2,E,fig1e_effect_sizes.csv,Fig2_E_1,Trait effect sizes (Hedges g CI) + first-10 fraction,figures/code/build_fig12.fig2 (extract/extract_traits_sourcedata.py)
+Fig2,E,fig1e_trait_table.csv,Fig2_E_2,Trait effect sizes (Hedges g CI) + first-10 fraction,figures/code/build_fig12.fig2 (extract/extract_traits_sourcedata.py)
+Fig2,E,fig1e_first10_share.csv,Fig2_E_3,Trait effect sizes (Hedges g CI) + first-10 fraction,figures/code/build_fig12.fig2 (extract/extract_traits_sourcedata.py)
+Fig3,A,figS03a_rates_by_half.csv,Fig3_A_1,Retrieval rate per minute at risk early/late,figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,A,fig2a_early_late_test.csv,Fig3_A_2,Retrieval rate per minute at risk early/late,figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,A,figS03c_rate_ratios.csv,Fig3_A_3,Retrieval rate per minute at risk early/late,figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,B,fig2a_entrenchment_shapley.csv,Fig3_B,Shapley decomposition,figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,C,fig2b_entry_latency_trials.csv,Fig3_C_1,Entry latency over session by role (LMM),figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,C,fig2b_entry_latency_fit.csv,Fig3_C_2,Entry latency over session by role (LMM),figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,D,fig2e_retrieval_latency_trials.csv,Fig3_D_1,Retrieving time over session by role (LMM),figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,D,fig2e_retrieval_latency_fit.csv,Fig3_D_2,Retrieving time over session by role (LMM),figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,E,fig2d_follower_lmm.csv,Fig3_E_1,Follow-delay slopes by stratum (LMM),figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,E,fig2d_follower_trials.csv,Fig3_E_2,Follow-delay slopes by stratum (LMM),figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,F,figS03de_transitions.csv,Fig3_F,Trial-to-trial transition matrices,figures/code/build_r34.py (function fig2 draws Fig. 3)
+Fig3,G,figS02a_solitary_vs_group_per_mouse.csv,Fig3_G_1,Group-to-alone ratios per mouse: retrieved (cohort A) / entry / retrieving,figures/code/build_r34.py (function fig2 draws Fig. 3) (ratio_table)
+Fig3,G,fig2f_entry_solitary_vs_group.csv,Fig3_G_2,Group-to-alone ratios per mouse: retrieved (cohort A) / entry / retrieving,figures/code/build_r34.py (function fig2 draws Fig. 3) (ratio_table)
+Fig3,G,figS05b_retrieval_solitary_vs_group.csv,Fig3_G_3,Group-to-alone ratios per mouse: retrieved (cohort A) / entry / retrieving,figures/code/build_r34.py (function fig2 draws Fig. 3) (ratio_table)
+Fig3,G,fig2g_movement_solitary_vs_group.csv,Fig3_G_4,Group-to-alone ratios per mouse: retrieved (cohort A) / entry / retrieving,figures/code/build_r34.py (function fig2 draws Fig. 3) (ratio_table)
+Fig4,A,fig3a_daily_grid.csv,Fig4_A_1,Daily record cohort A,figures/code/build_r5.fig3
+Fig4,A,fig3a_daily_strip.csv,Fig4_A_2,Daily record cohort A,figures/code/build_r5.fig3
+Fig4,B,fig3b_rank_vs_contribution.csv,Fig4_B_1,Rank vs episode contribution; baselines,figures/code/build_r5.fig3
+Fig4,B,fig3b_top_rank_prediction.csv,Fig4_B_2,Rank vs episode contribution; baselines,figures/code/build_r5.fig3
+Fig4,C,fig3c_three_conditions.csv,Fig4_C,Replacement mice: present/absent/returned,figures/code/build_r5.fig3
+Fig4,D,fig3d_event_aligned.csv,Fig4_D,"Retrieval per trial around removals/reunions; plotted_probability = centred rolling mean of 15 trials, with the original provider set to 0 on the side where it was absent",figures/code/build_r5.fig3
+Fig5,A,fig4c_enet_weights.csv,Fig5_A_1,Elastic-net weights (18 mice),figures/code/build_fig5
+Fig5,A,fig4c_loco_stability.csv,Fig5_A_2,Elastic-net weights (18 mice),figures/code/build_fig5
+Fig5,B,fig4d_benefit_cost.csv,Fig5_B,Benefit–cost plane (in-sample),figures/code/build_fig5
+Fig5,C,fig5c_heldout_auc.csv,Fig5_C,Held-out AUC LOMO/LOCO with bootstrap CI and permutation P,figures/code/build_fig5 (patch_fig5_c_i.py); analysis/heldout_auc/heldout_auc.py
+Fig5,D,fig5d_tilt_timecourse.csv,Fig5_D_1,Within-mouse t time course θ tilt vs PFC β,figures/code/build_fig5; analysis/lfp_events/tilt_timecourse.py
+Fig5,D,fig5d_tilt_clusters.csv,Fig5_D_2,Within-mouse t time course θ tilt vs PFC β,figures/code/build_fig5; analysis/lfp_events/tilt_timecourse.py
+Fig5,D,fig5d_tilt_evoked.csv,Fig5_D_3,Within-mouse t time course θ tilt vs PFC β,figures/code/build_fig5; analysis/lfp_events/tilt_timecourse.py
+Fig5,E,fig5e_tilt_per_mouse.csv,Fig5_E_1,Per-mouse slope of joining on θ tilt,figures/code/build_fig5; analysis/lfp_events/theta_tilt.py
+Fig5,E,theta_tilt_tests.csv,Fig5_E_2,Per-mouse slope of joining on θ tilt,figures/code/build_fig5; analysis/lfp_events/theta_tilt.py
+Fig5,F,fig5f_tilt_robustness.csv,Fig5_F_1,Robustness checks incl. Days 21–45,figures/code/build_fig5
+Fig5,F,fig5f_beta_robustness.csv,Fig5_F_2,Robustness checks incl. Days 21–45,figures/code/build_fig5
+Fig5,F,tilt_member_change_tests.csv,Fig5_F_3,Robustness checks incl. Days 21–45,figures/code/build_fig5
+Fig5,G,fig5g_dreadd_power.csv,Fig5_G_1,CNO − saline PFC band power (baseline segment),figures/code/build_fig5 → figures/code/build_dreadd_candidates.spectrum_panel
+Fig5,G,dreadd_trial_neural.csv,Fig5_G_2,CNO − saline PFC band power (baseline segment),figures/code/build_fig5 → figures/code/build_dreadd_candidates.spectrum_panel
+Fig5,H,dreadd_trial_neural.csv,Fig5_H,Pre-trial PFC θ ratio per trial saline vs CNO,figures/code/build_fig5 → figures/code/build_dreadd_candidates.tilt_pairs_panel
+Fig5,I,dreadd_trial_neural.csv,Fig5_I_1,Pre-trial θ ratio vs time to retrieval (35 trials),figures/code/build_fig5 → figures/code/build_dreadd_candidates.state_behaviour_panel
+Fig5,I,dreadd_pfc_trials.csv,Fig5_I_2,Pre-trial θ ratio vs time to retrieval (35 trials),figures/code/build_fig5 → figures/code/build_dreadd_candidates.state_behaviour_panel
+Fig5,J,dreadd_pfc_trials.csv,Fig5_J,"Cumulative retrieval (Kaplan–Meier) saline vs CNO, four providers pooled (24 / 23 trials)",figures/code/build_fig5 (km from figures/code/build_dreadd_pooled)
+figS01,A–G,figS01b_cohort_schedule.csv,figS01_A-G_1,Task sequence; cohorts; arena plan/section; states; electrodes; histology,figures/code/build_r12.figS01
+figS01,A–G,figS01b_retrievals_per_mouse.csv,figS01_A-G_2,Task sequence; cohorts; arena plan/section; states; electrodes; histology,figures/code/build_r12.figS01
+figS01,A–G,figS01d_state_raster_cohortA.csv + art/,— (illustration),,figures/code/build_r12.figS01
+figS02,A,figS02b_retrieval_rate_per_mouse.csv,figS02_A,Retrieval-rate histogram with k-means boundary 0.43,figures/code/build_s02
+figS02,B,figS02c_share_provider_vs_others.csv,figS02_B,Provider vs others fraction per cohort (descriptive),figures/code/build_s02
+figS02,C,fig1c_lorenz_points.csv,figS02_C_1,Lorenz per cohort,figures/code/build_s02
+figS02,C,fig1c_gini_by_cohort.csv,figS02_C_2,Lorenz per cohort,figures/code/build_s02
+figS02,D–E,fig1c_eating_per_mouse_published.csv,figS02_D-E,Eating time / latency to eat by state,figures/code/build_s02
+figS02,F,figS02h_fixed_vs_moving.csv,figS02_F,Fixed snack: snack obtained vs retrieval (12 mice),figures/code/build_s02
+figS02,G,figS02i_chamber_outcome.csv,figS02_G_1,Closed chamber outcome 67/70,figures/code/build_s02
+figS02,G,figS02g_carried_out_trials.csv,figS02_G_2,"Trials carried out of the closed chamber: mouse and trial (C2 ×2, C3 ×1; both non-providers)",extract/extract_figS02g_carriers.py + figures/code/build_s02
+figS02,H,figS02h_kinetic_energy.csv,figS02_H,Kinetic energy by state,figures/code/build_s02
+figS02,I,figS03c_hhi_by_quintile.csv,figS02_I,HHI by session quintile,figures/code/build_s02
+figS02,J,figS03d_retrieval_bouts.csv,figS02_J,Runs of retrievals,figures/code/build_s02
+figS02,K,fig1e_trait_table.csv,figS02_K,Trait percentiles,figures/code/build_s02
+figS02,L,figS02n_dominance_before_after.csv,figS02_L,Dominance before/after,figures/code/build_s02
+figS03,A–B,figS03b_shapley_bootstrap.csv,figS03_A-B_1,Shapley bootstrap; stay-out engagement,figures/code/build_r34.figS03
+figS03,A–B,figS03f_stayout_engagement.csv,figS03_A-B_2,Shapley bootstrap; stay-out engagement,figures/code/build_r34.figS03
+figS04,A–G,figS04a_trial_table.csv,figS04_A-G_1,Race model,figures/code/build_r34.figS04
+figS04,A–G,figS04b_parameter_recovery.csv,figS04_A-G_2,Race model,figures/code/build_r34.figS04
+figS04,A–G,figS04c_fitted_parameters.csv,figS04_A-G_3,Race model,figures/code/build_r34.figS04
+figS04,A–G,figS04d_model_comparison.csv,figS04_A-G_4,Race model,figures/code/build_r34.figS04
+figS05,A–E,fig2f_entry_solitary_vs_group.csv,figS05_A-E_1,Solitary vs group per mouse; trial-level; solitary trend,figures/code/build_r34.figS05
+figS05,A–E,figS05b_retrieval_solitary_vs_group.csv,figS05_A-E_2,Solitary vs group per mouse; trial-level; solitary trend,figures/code/build_r34.figS05
+figS05,A–E,fig2g_movement_solitary_vs_group.csv,figS05_A-E_3,Solitary vs group per mouse; trial-level; solitary trend,figures/code/build_r34.figS05
+figS05,A–E,fig2f_entry_stats.csv,figS05_A-E_4,Solitary vs group per mouse; trial-level; solitary trend,figures/code/build_r34.figS05
+figS05,A–E,fig1b_solitary_latency.csv,figS05_A-E_5,Solitary vs group per mouse; trial-level; solitary trend,figures/code/build_r34.figS05
+figS05,A–E,figS05c_solitary_trend.csv,figS05_A-E_6,Solitary vs group per mouse; trial-level; solitary trend,figures/code/build_r34.figS05
+figS06,A–H,fig3a_daily_grid.csv,figS06_A-H_1,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS06,A–H,figS06c_release_by_day.csv,figS06_A-H_2,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS06,A–H,figS06d_baseline_rank.csv,figS06_A-H_3,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS06,A–H,figS06e_starter_halves.csv,figS06_A-H_4,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS06,A–H,figS06f_starter_excess.csv,figS06_A-H_5,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS06,A–H,figS06g_rate_by_starter.csv,figS06_A-H_6,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS06,A–H,figS06h_effect_sizes.csv,figS06_A-H_7,Cohorts B/C daily; baseline rank; release; starters; effect sizes,figures/code/build_r5.figS06
+figS07,A–D,figS07_heldout_scores.csv,figS07_A-D_1,Held-out scores by role; permutation nulls,figures/code/build_figS07; analysis/heldout_auc/heldout_auc.py
+figS07,A–D,figS07_null_auc.csv,figS07_A-D_2,Held-out scores by role; permutation nulls,figures/code/build_figS07; analysis/heldout_auc/heldout_auc.py
+figS07,A–D,fig5c_heldout_auc.csv,figS07_A-D_3,Held-out scores by role; permutation nulls,figures/code/build_figS07; analysis/heldout_auc/heldout_auc.py
+figS08,A–F,nat2025_state_spectrograms.mat,(MATLAB file in the deposited data folder; spectrogram matrices too large for a sheet),"State-wise time-normalised spectrograms (A), Entry-phase PSD (B–D), band × phase state differences (E–F); averages from the Nature-2025 source data (J. Lee)",figures/code/build_lfp_summary.figS08
+figS08,A–F,nat2025_psd_act.xlsx [b],figS08_A-F_1,"State-wise time-normalised spectrograms (A), Entry-phase PSD (B–D), band × phase state differences (E–F); averages from the Nature-2025 source data (J. Lee)",figures/code/build_lfp_summary.figS08
+figS08,A–F,nat2025_psd_act.xlsx [c],figS08_A-F_2,"State-wise time-normalised spectrograms (A), Entry-phase PSD (B–D), band × phase state differences (E–F); averages from the Nature-2025 source data (J. Lee)",figures/code/build_lfp_summary.figS08
+figS08,A–F,nat2025_psd_act.xlsx [d],figS08_A-F_3,"State-wise time-normalised spectrograms (A), Entry-phase PSD (B–D), band × phase state differences (E–F); averages from the Nature-2025 source data (J. Lee)",figures/code/build_lfp_summary.figS08
+figS08,A–F,nat2025_band_by_phase.mat,(MATLAB file in the deposited data folder; spectrogram matrices too large for a sheet),"State-wise time-normalised spectrograms (A), Entry-phase PSD (B–D), band × phase state differences (E–F); averages from the Nature-2025 source data (J. Lee)",figures/code/build_lfp_summary.figS08
+figS09,A–D,nat2025_event_spectrograms.mat,(MATLAB file in the deposited data folder; spectrogram matrices too large for a sheet),Entry- and grab-aligned spectrograms (A–C; Nature-2025 source data) and cluster-test summary of this study (D),figures/code/build_lfp_summary.figS09; analysis/lfp_events/allmap_*.py
+figS09,A–D,event_clusters.csv,figS09_A-D_1,Entry- and grab-aligned spectrograms (A–C; Nature-2025 source data) and cluster-test summary of this study (D),figures/code/build_lfp_summary.figS09; analysis/lfp_events/allmap_*.py
+figS09,A–D,event_clusters_pre.csv,figS09_A-D_2,Entry- and grab-aligned spectrograms (A–C; Nature-2025 source data) and cluster-test summary of this study (D),figures/code/build_lfp_summary.figS09; analysis/lfp_events/allmap_*.py
+figS09,A–D,pair_clusters.csv,figS09_A-D_3,Entry- and grab-aligned spectrograms (A–C; Nature-2025 source data) and cluster-test summary of this study (D),figures/code/build_lfp_summary.figS09; analysis/lfp_events/allmap_*.py
+figS10,A–B,"edspec/ed_spectro_{PFC,NAc,BLA}.csv","(CSV files in the deposited data folder, data/edspec/; trial × time × frequency arrays too large for a sheet)","Follower event-locked spectrograms (first entrant’s entry / own entry) by who followed whom, cluster contours; exploratory",figures/code/build_follower_spectro.py; analysis/lfp_events/entrant_identity_test.py
+figS10,A–B,edspec/ed_spectro_own_*.csv,"(CSV files in the deposited data folder, data/edspec/; trial × time × frequency arrays too large for a sheet)","Follower event-locked spectrograms (first entrant’s entry / own entry) by who followed whom, cluster contours; exploratory",figures/code/build_follower_spectro.py; analysis/lfp_events/entrant_identity_test.py
+figS10,A–B,edspec/*_trials_meta.csv,"(CSV files in the deposited data folder, data/edspec/; trial × time × frequency arrays too large for a sheet)","Follower event-locked spectrograms (first entrant’s entry / own entry) by who followed whom, cluster contours; exploratory",figures/code/build_follower_spectro.py; analysis/lfp_events/entrant_identity_test.py
+figS10,A–B,figS10_follower_clusters.csv,figS10_A-B_1,"Follower event-locked spectrograms (first entrant’s entry / own entry) by who followed whom, cluster contours; exploratory",figures/code/build_follower_spectro.py; analysis/lfp_events/entrant_identity_test.py
+figS10,A–B,entrant_identity_test.csv,figS10_A-B_2,"Follower event-locked spectrograms (first entrant’s entry / own entry) by who followed whom, cluster contours; exploratory",figures/code/build_follower_spectro.py; analysis/lfp_events/entrant_identity_test.py
+figS11,A–D,auc_mean.csv,figS11_A-D_1,"Entry AUC vs number inside; effects on others; A asterisks = features with an own-entry cluster at family-wise P < 0.05 (event_clusters.csv, sheet figS09_A-D_1); B asterisk = P < 0.05 uncorrected",figures/code/build_auc (EvI_entry_auc) → figures/code/finalize_supp
+figS11,A–D,auc_by_inside.csv,figS11_A-D_2,"Entry AUC vs number inside; effects on others; A asterisks = features with an own-entry cluster at family-wise P < 0.05 (event_clusters.csv, sheet figS09_A-D_1); B asterisk = P < 0.05 uncorrected",figures/code/build_auc (EvI_entry_auc) → figures/code/finalize_supp
+figS11,A–D,auc_beta.csv,figS11_A-D_3,"Entry AUC vs number inside; effects on others; A asterisks = features with an own-entry cluster at family-wise P < 0.05 (event_clusters.csv, sheet figS09_A-D_1); B asterisk = P < 0.05 uncorrected",figures/code/build_auc (EvI_entry_auc) → figures/code/finalize_supp
+figS12,—,decoder_variants.csv,figS12_x_1,Decoder variants held-out AUC,figures/code/build_figS_extra (figS_decoder_variants); analysis/lfp_events/decoder_variants.py
+figS12,—,decoder_auc.csv,figS12_x_2,Decoder variants held-out AUC,figures/code/build_figS_extra (figS_decoder_variants); analysis/lfp_events/decoder_variants.py
+figS13,A–H,fig4a_band_traces.csv,figS13_A-H_1,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4b_lda_coefficients.csv,figS13_A-H_2,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4c_enet_weights.csv,figS13_A-H_3,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4d_benefit_cost.csv,figS13_A-H_4,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4d_heldout_auc.csv,figS13_A-H_5,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4e_timecourses.csv,figS13_A-H_6,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4e_clusters.csv,figS13_A-H_7,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4f_joint_model.csv,figS13_A-H_8,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4g_robustness.csv,figS13_A-H_9,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS13,A–H,fig4h_per_mouse.csv,figS13_A-H_10,Earlier γ/β two-component analysis (old Fig. 4),figures/code/build_r67.fig4 (saved as figS13)
+figS14,A–B,tilt_member_change_tests.csv,figS14_A-B_1,θ tilt Days 21–45 replication,figures/code/build_figS_extra (figS_tilt_replication); analysis/member_change/tilt_mc_test.py
+figS14,A–B,tilt_member_change_per_mouse.csv,figS14_A-B_2,θ tilt Days 21–45 replication,figures/code/build_figS_extra (figS_tilt_replication); analysis/member_change/tilt_mc_test.py
+figS15,A–C,dreadd_pfc_trials.csv,figS15_A-C_1,DREADD pooled trials PFC + NAc,figures/code/build_dreadd_pooled (figS_dreadd_pooled)
+figS15,A–C,dreadd_nac_trials.csv,figS15_A-C_2,DREADD pooled trials PFC + NAc,figures/code/build_dreadd_pooled (figS_dreadd_pooled)
+figS15,A–C,dreadd_animal_summary.csv,figS15_A-C_3,DREADD pooled trials PFC + NAc,figures/code/build_dreadd_pooled (figS_dreadd_pooled)
+figS16,—,dreadd_trial_neural.csv,figS16_x,CNO − saline all regions,figures/code/build_dreadd_pooled (figS_dreadd_manipulation_all)
+figS17,A–B,dreadd_trial_neural.csv,figS17_A-B_1,Every chemogenetic trial in order,figures/code/build_dreadd_candidates (cand_dreadd_C_timeline)
+figS17,A–B,dreadd_pfc_trials.csv,figS17_A-B_2,Every chemogenetic trial in order,figures/code/build_dreadd_candidates (cand_dreadd_C_timeline)
+tableS3,—,tableS3_traits.csv,tableS3_x_1,Baseline traits,extract/extract_traits_sourcedata.py; sm_tables.js
+tableS3,—,fig1e_effect_sizes.csv,tableS3_x_2,Baseline traits,extract/extract_traits_sourcedata.py; sm_tables.js
+tableS4,—,fig2d_follower_lmm.csv,tableS4_x_1,Latency / follow / retrieval models,(table in the supplementary materials; values from the listed file)
+tableS4,—,fig2b_entry_latency_fit.csv,tableS4_x_2,Latency / follow / retrieval models,(table in the supplementary materials; values from the listed file)
+tableS4,—,fig2e_retrieval_latency_fit.csv,tableS4_x_3,Latency / follow / retrieval models,(table in the supplementary materials; values from the listed file)
+tableS4,—,figS02h_fixed_vs_moving.csv,tableS4_x_4,Latency / follow / retrieval models,(table in the supplementary materials; values from the listed file)
+tableS6,—,fig5c_heldout_auc.csv,tableS6_x_1,Neural statistics,(table in the supplementary materials; values from the listed file)
+tableS6,—,theta_tilt_tests.csv,tableS6_x_2,Neural statistics,(table in the supplementary materials; values from the listed file)
+tableS6,—,decoder_variants.csv,tableS6_x_3,Neural statistics,(table in the supplementary materials; values from the listed file)
+tableS6,—,tilt_member_change_tests.csv,tableS6_x_4,Neural statistics,(table in the supplementary materials; values from the listed file)
+tableS6,—,dreadd_animal_summary.csv,tableS6_x_5,Neural statistics,(table in the supplementary materials; values from the listed file)
+tableS6,—,event_clusters.csv,tableS6_x_6,Neural statistics,(table in the supplementary materials; values from the listed file)
